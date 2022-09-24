@@ -20,7 +20,7 @@ fun Application.module() {
 
     install(Routing){
         get("/"){
-            call.respondText("Twenzetu App")
+            call.respondText("welcome to canny Bits")
         }
 
         get("/users/{username}"){
