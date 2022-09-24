@@ -20,7 +20,7 @@ fun Application.module() {
 
     install(Routing){
         get("/"){
-            call.respondText("welcome to canny Bits")
+            call.respondText("welcome to Canny-ville")
         }
 
         get("/users/{username}"){
