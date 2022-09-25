@@ -32,7 +32,7 @@ fun Application.module() {
                 call.respond(message="Hello Admin", status = HttpStatusCode.OK)
             }
 
-            call.respondText("username is $username with header $header")
+            call.respondText("username fetched is $username with header $header")
         }
 
         get("/user"){
